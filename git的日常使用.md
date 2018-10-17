@@ -14,7 +14,7 @@ git checkout -b wydev   // 本地 wydev 分支 ---> 再次分支中开发代码
 
 ```js
 // 要合并到本地的 dev 时,先切回到本地的 dev 分支
-git rebase wydev dev  /* 就是以代码更新过的分支为基础(原点), 若 wydev 分支有更新,则将 dev 分支推到 wydev 分支更新的节点上,这样就						  相当于将 wydev 中更新的代码合并(添加)到了 dev 上 */	   
+git rebase wydev dev  /* 就是以代码更新过的分支为基础(原点), 若 wydev 分支有更新,则将 dev 分支推到 wydev 分支更新的节点上,这样就相当于将 wydev 中更新的代码合并(添加)到了 dev 上 */	   
 ```
 
 
